@@ -1,0 +1,16 @@
+{
+  "name": "pterodactyl-credit-maker",
+  "version": "1.0.0",
+  "description": "Headless chrome browser that will stay online on sites running Pterodactyl infrastructure logged in as you to gain \"credits\" for spending on server resources.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "puppeteer": "^19.9.0"
+  }
+}
