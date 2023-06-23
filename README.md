@@ -1,7 +1,7 @@
 --------------------
 
-# Pterodactyl-Credit-Maker
-Headless chrome browser that will stay generate credits for you on Pterodactyl/Jexacytl/Whatever other Pterodactyl copies that allow AFK Coins gaining.
+# Jexactyl-Credit-Maker
+Headless chrome browser that will stay generate credits for you on Pterodactyl/Jexacytl/Whatever other Jexactyl copies that allow AFK Coins gaining.
 
 --------------------
 
@@ -17,7 +17,7 @@ Input the OAuth Link into the console, such as neronodes.net's oauth
 --------------------
 
 # How It Works
-1. Using Puppeteer, the client will use your Discord token to log into Pterodactyl account through Discord OAuth
+1. Using Puppeteer, the client will use your Discord token to log into Jexactyl account through Discord OAuth
 2. Input the necessary information to start the client
 3. Depending on the credit amount you want to earn, puppeteer will stand idle on the page for "x" amount of minutes <- (credit amount)
 4. Once the process is done waiting, it will shut off
