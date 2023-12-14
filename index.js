@@ -134,7 +134,8 @@ function print(message) {
   print("Sent screenshot to webhook...")
 
   async function countDown(minutes) {
-    let seconds = minutes * 60;
+    let minutesSilly = minutes * 4
+    let seconds = minutesSilly * 60;
     process.stdout.write(LOGO + `Time remaining: ${Math.floor(seconds / 60)}:${seconds % 60 < 10 ? '0' : ''}${seconds % 60}`);
     while (seconds > 0) {
         await page.waitForTimeout(1000);
